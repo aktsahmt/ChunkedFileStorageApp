@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChunkedFileStorageApp.CLI", "ChunkedFileStorageApp.CLI\ChunkedFileStorageApp.CLI.csproj", "{D372A6EA-4932-4BE8-B8EE-322930A1E6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChunkedFileStorageApp.Core", "ChunkedFileStorageApp.Core\ChunkedFileStorageApp.Core.csproj", "{9B1DC584-B93E-46E7-9E2D-C9BBF421AD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChunkedFileStorageApp.Application", "ChunkedFileStorageApp.Application\ChunkedFileStorageApp.Application.csproj", "{5E3B4576-F12D-49C4-959C-9BAAF1B5C46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChunkedFileStorageApp.Infrastructure", "ChunkedFileStorageApp.Infrastructure\ChunkedFileStorageApp.Infrastructure.csproj", "{B8EE2F29-2156-4B3C-B1EA-8CDECE645C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D372A6EA-4932-4BE8-B8EE-322930A1E6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D372A6EA-4932-4BE8-B8EE-322930A1E6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D372A6EA-4932-4BE8-B8EE-322930A1E6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D372A6EA-4932-4BE8-B8EE-322930A1E6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1DC584-B93E-46E7-9E2D-C9BBF421AD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1DC584-B93E-46E7-9E2D-C9BBF421AD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1DC584-B93E-46E7-9E2D-C9BBF421AD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1DC584-B93E-46E7-9E2D-C9BBF421AD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3B4576-F12D-49C4-959C-9BAAF1B5C46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3B4576-F12D-49C4-959C-9BAAF1B5C46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3B4576-F12D-49C4-959C-9BAAF1B5C46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3B4576-F12D-49C4-959C-9BAAF1B5C46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EE2F29-2156-4B3C-B1EA-8CDECE645C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EE2F29-2156-4B3C-B1EA-8CDECE645C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EE2F29-2156-4B3C-B1EA-8CDECE645C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EE2F29-2156-4B3C-B1EA-8CDECE645C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {064823DA-FEEF-420C-9AFD-2528B7E5B943}
+	EndGlobalSection
+EndGlobal
